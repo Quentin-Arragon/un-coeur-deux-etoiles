@@ -5,6 +5,7 @@ using System;
 public class DialogChoiceEntry
 {
     public string id;
+    public string soundId;
 
-    public Color color;
+    public Color color =  Color.white;
 }

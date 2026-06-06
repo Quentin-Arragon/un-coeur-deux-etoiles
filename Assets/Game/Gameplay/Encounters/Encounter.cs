@@ -2,9 +2,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using DG.Tweening;
+using Sirenix.OdinInspector;
 
 public class Encounter : MonoBehaviour
 {
+    [Title("Configs")]
     [SerializeField]
     private float introDuration = 2;
     [SerializeField]
@@ -12,8 +14,11 @@ public class Encounter : MonoBehaviour
     [SerializeField]
     private float dialog_1_duration = 3f;
     [SerializeField]
-    private DialogChoiceView dialog_1_choice;
-
+    private DialogChoice[] _choices = null;
+    
+    [Title("References")]
+    [SerializeField]
+    private DialogChoiceView _dialogChoiceView = null;
     [SerializeField]
     private GameObject _character = null;
 
@@ -25,9 +30,8 @@ public class Encounter : MonoBehaviour
         GoFullscreen();
         _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(290f, 0f), introDuration).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(introDuration);
-        AudioSourcesManager.Instance.PlayDialog(dialog_1);
-        yield return new WaitForSeconds(dialog_1_duration);
-        // display choices
+        // AudioSourcesManager.Instance.PlayDialog(dialog_1);
+        _dialogChoiceView.DisplayChoices(_choices[0]);
     }
 
 

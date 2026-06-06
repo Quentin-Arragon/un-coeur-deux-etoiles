@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c81a4759f0d842fea6169b715575b69, type: 3}
   m_Name: Sounds Bank
   m_EditorClassIdentifier: Assembly-CSharp::SoundsBank
+  sounds:
+  - id: placeholder
+    clip: {fileID: 8300000, guid: e507c0cdc51db440aaec97eac0d77295, type: 3}

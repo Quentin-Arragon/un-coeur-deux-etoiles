@@ -9,9 +9,9 @@ public class DialogChoiceView : MonoBehaviour
     private Transform choicesContainer = null;
 
 
-    public void DisplayChoices(DialogChoiceEntry[] choices)
+    public void DisplayChoices(DialogChoice dialogChoice)
     {
-        foreach (var choice in choices)
+        foreach (var choice in dialogChoice.playerEntries)
         {
             var choiceEntryView = Instantiate(choiceEntryViewPrefab, choicesContainer);
             choiceEntryView.Display(choice);
