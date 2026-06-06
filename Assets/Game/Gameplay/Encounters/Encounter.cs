@@ -4,6 +4,8 @@ using UnityEngine.UI;
 public class Encounter : MonoBehaviour
 {
     [SerializeField]
+    private float introDuration = 2;
+    [SerializeField]
     private AudioClip dialog_1 = null;
 
 
