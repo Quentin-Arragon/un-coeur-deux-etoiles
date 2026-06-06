@@ -9,10 +9,15 @@ public class DialogChoiceView : MonoBehaviour
     [SerializeField]
     private Transform choicesContainer = null;
 
-    public event Action<DialogChoiceEntry> ChoiceSubmitted;
+    private Action<DialogChoiceEntry> _onChoiceSubmitted;
 
-    public void DisplayChoices(DialogChoice dialogChoice)
+    public void DisplayChoices(DialogChoice dialogChoice, Action<DialogChoiceEntry> onChoiceSubmitted)
     {
+        _onChoiceSubmitted = onChoiceSubmitted;
+
+        foreach (Transform child in choicesContainer)
+            Destroy(child.gameObject);
+
         DialogChoiceEntryView first = null;
         foreach (var choice in dialogChoice.playerEntries)
         {
@@ -28,6 +33,6 @@ public class DialogChoiceView : MonoBehaviour
 
     private void OnEntrySubmitted(DialogChoiceEntryView view)
     {
-        ChoiceSubmitted?.Invoke(view.Entry);
+        _onChoiceSubmitted?.Invoke(view.Entry);
     }
 }

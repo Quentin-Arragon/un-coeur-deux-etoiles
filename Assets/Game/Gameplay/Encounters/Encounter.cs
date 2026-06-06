@@ -31,7 +31,17 @@ public class Encounter : MonoBehaviour
         _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(290f, 0f), introDuration).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(introDuration);
         // AudioSourcesManager.Instance.PlayDialog(dialog_1);
-        _dialogChoiceView.DisplayChoices(_choices[0]);
+
+        foreach (var choice in _choices)
+        {
+            DialogChoiceEntry chosen = null;
+            _dialogChoiceView.DisplayChoices(choice, entry => chosen = entry);
+
+            yield return new WaitUntil(() => chosen != null);
+
+            Debug.Log($"Choix sélectionné : {chosen.id}");
+            // ... fais quelque chose avec chosen.id ici
+        }
     }
 
 
