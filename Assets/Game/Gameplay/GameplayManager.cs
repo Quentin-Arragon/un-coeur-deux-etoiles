@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class GameplayManager : MonoBehaviour
 {
@@ -6,9 +7,9 @@ public class GameplayManager : MonoBehaviour
     private Encounter[] encounter = null;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    IEnumerator Start()
     {
-        encounter[0].StartEncounter();
+        yield return encounter[0].StartEncounter();
     }
 
     // Update is called once per frame
