@@ -24,7 +24,7 @@ public class Intro : MonoBehaviour
 
     void Update()
     {
-        if (hasCompletedIntro && Keyboard.current.anyKey.wasPressedThisFrame)
+        if (Keyboard.current.anyKey.wasPressedThisFrame)
         {
             SceneManager.LoadScene("Gameplay");
         }
