@@ -12,7 +12,7 @@ public class Encounter : MonoBehaviour
     [SerializeField]
     private float dialog_1_duration = 3f;
     [SerializeField]
-    private DialogChoice dialog_1_choice;
+    private DialogChoiceView dialog_1_choice;
 
     [SerializeField]
     private GameObject _character = null;

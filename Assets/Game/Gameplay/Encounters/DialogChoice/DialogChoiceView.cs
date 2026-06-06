@@ -1,7 +1,7 @@
 using UnityEngine;
 using System;
 
-public class DialogChoice : MonoBehaviour
+public class DialogChoiceView : MonoBehaviour
 {
     [SerializeField]
     private DialogChoiceEntryView choiceEntryViewPrefab = null;
