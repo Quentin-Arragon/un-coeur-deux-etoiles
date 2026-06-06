@@ -23,7 +23,7 @@ public class Encounter : MonoBehaviour
         GoFullscreen();
         _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(290f, 0f), introDuration).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(introDuration);
-        // play sound
+        AudioSourcesManager.Instance.PlayDialog(dialog_1);
         yield return new WaitForSeconds(dialog_1_duration);
         // display choices
     }

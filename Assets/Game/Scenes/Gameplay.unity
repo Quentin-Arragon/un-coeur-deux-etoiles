@@ -866,7 +866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Encounter
   introDuration: 0.2
-  dialog_1: {fileID: 0}
+  dialog_1: {fileID: 8300000, guid: e507c0cdc51db440aaec97eac0d77295, type: 3}
   dialog_1_duration: 3
   _character: {fileID: 1877136796}
 --- !u!1 &1505281301
