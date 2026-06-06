@@ -11,15 +11,12 @@ public class Intro : MonoBehaviour
     [SerializeField]
     private GameObject anyKeyPrompt;
 
-    private bool hasCompletedIntro = false;
-
 
     IEnumerator Start()
     {
         anyKeyPrompt.SetActive(false);
         yield return new WaitForSeconds(introDuration);
         anyKeyPrompt.SetActive(true);
-        hasCompletedIntro = true;
     }
 
     void Update()
