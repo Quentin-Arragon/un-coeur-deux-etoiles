@@ -11,6 +11,8 @@ public class Encounter : MonoBehaviour
     private AudioClip dialog_1 = null;
     [SerializeField]
     private float dialog_1_duration = 3f;
+    [SerializeField]
+    private DialogChoice dialog_1_choice;
 
     [SerializeField]
     private GameObject _character = null;
