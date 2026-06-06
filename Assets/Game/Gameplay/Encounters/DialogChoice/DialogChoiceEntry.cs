@@ -1,16 +1,10 @@
 using UnityEngine;
+using System;
 
-public class DialogChoiceEntry : MonoBehaviour
+[Serializable]
+public class DialogChoiceEntry
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string id;
+    public string label;
+    public Color color;
 }
