@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 8314383713638844824}
   - component: {fileID: 9128078129780690345}
   - component: {fileID: 8028303658746479054}
+  - component: {fileID: 6112543314675333426}
   m_Layer: 5
   m_Name: Image - Selected Feedback
   m_TagString: Untagged
@@ -244,6 +245,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffade7edb5b1df45a6c3642149606c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::RoundModifier
+--- !u!225 &6112543314675333426
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753102948750280253}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &8047483725537968528
 GameObject:
   m_ObjectHideFlags: 0

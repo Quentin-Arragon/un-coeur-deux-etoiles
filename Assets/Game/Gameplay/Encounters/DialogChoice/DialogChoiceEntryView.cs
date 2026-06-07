@@ -24,9 +24,18 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     [SerializeField]
     private float soundIconPulseDuration = 0.5f;
 
+    [SerializeField, Range(0f, 1f)]
+    private float feedbackPulseMinAlpha = 0.4f;
+    [SerializeField, Range(0f, 1f)]
+    private float feedbackPulseMaxAlpha = 1f;
+    [SerializeField]
+    private float feedbackPulseDuration = 0.8f;
+
     private DialogChoiceEntry _entry;
     private Vector3 _soundIconBaseScale = Vector3.one;
     private Tween _soundIconPulse;
+    private CanvasGroup _feedbackCanvasGroup;
+    private Tween _feedbackPulse;
 
     public DialogChoiceEntry Entry => _entry;
     public event Action<DialogChoiceEntryView> Submitted;
@@ -77,14 +86,48 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
         _sounfIcon.transform.localScale = _soundIconBaseScale;
     }
 
-    private void OnDisable() => StopSoundIconPulse();
+    private void OnDisable()
+    {
+        StopSoundIconPulse();
+        StopFeedbackPulse();
+    }
 
     public void OnSubmit(BaseEventData _) => Submitted?.Invoke(this);
 
     private void SetFeedbackActive(bool active)
     {
-        if (selectedFeedback != null)
-            selectedFeedback.SetActive(active);
+        if (selectedFeedback == null)
+            return;
+
+        selectedFeedback.SetActive(active);
+
+        if (active)
+            PulseFeedbackAlpha();
+        else
+            StopFeedbackPulse();
+    }
+
+    private void PulseFeedbackAlpha()
+    {
+        if (_feedbackCanvasGroup == null)
+            _feedbackCanvasGroup = selectedFeedback.GetComponent<CanvasGroup>();
+        if (_feedbackCanvasGroup == null)
+            _feedbackCanvasGroup = selectedFeedback.AddComponent<CanvasGroup>();
+
+        _feedbackPulse?.Kill();
+        _feedbackCanvasGroup.alpha = feedbackPulseMaxAlpha;
+        _feedbackPulse = _feedbackCanvasGroup
+            .DOFade(feedbackPulseMinAlpha, feedbackPulseDuration * 0.5f)
+            .SetLoops(-1, LoopType.Yoyo)
+            .SetEase(Ease.InOutSine);
+    }
+
+    private void StopFeedbackPulse()
+    {
+        _feedbackPulse?.Kill();
+        _feedbackPulse = null;
+        if (_feedbackCanvasGroup != null)
+            _feedbackCanvasGroup.alpha = feedbackPulseMaxAlpha;
     }
 
     private void SetAlpha(float alpha)
