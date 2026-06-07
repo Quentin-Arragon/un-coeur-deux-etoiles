@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class AudioSourcesManager : MonoBehaviour
@@ -40,7 +41,30 @@ public class AudioSourcesManager : MonoBehaviour
 
     public void PlayPlayerVoice(string id)
     {
-        PlayOn(playerVoiceAudioSource, id);
+        PlayPlayerVoice(id, 2);
+    }
+
+    public void PlayPlayerVoice(string id, int times)
+    {
+        GameSound sound = soundsBank.GetSound(id);
+        if (sound == null || sound.clip == null)
+        {
+            Debug.LogWarning($"Sound with id '{id}' not found in the sounds bank.");
+            return;
+        }
+
+        StopAllCoroutines();
+        StartCoroutine(PlayRepeated(playerVoiceAudioSource, sound.clip, times));
+    }
+
+    private IEnumerator PlayRepeated(AudioSource source, AudioClip clip, int times)
+    {
+        source.Stop();
+        for (int i = 0; i < times; i++)
+        {
+            source.PlayOneShot(clip);
+            yield return new WaitForSeconds(clip.length);
+        }
     }
 
     public void PlayEffect(string id)
