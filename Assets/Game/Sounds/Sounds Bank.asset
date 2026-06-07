@@ -76,3 +76,9 @@ MonoBehaviour:
   - id: encounter-2-answer-3
     category: 
     clip: {fileID: 8300000, guid: a5f9f940577004029967a8c1e18103fb, type: 3}
+  - id: character-1-song
+    category: 
+    clip: {fileID: 8300000, guid: 932c1bf8be1114df592979ee98fece7f, type: 3}
+  - id: character-2-song
+    category: 
+    clip: {fileID: 8300000, guid: aba8285ba0bb646d08a9f67c1470c1a6, type: 3}

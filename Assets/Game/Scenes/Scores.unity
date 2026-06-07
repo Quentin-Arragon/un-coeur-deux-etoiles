@@ -495,6 +495,8 @@ MonoBehaviour:
   character2_winner: {fileID: 11400000, guid: e60dc9150e0da4bd6a13cfd05b16b495, type: 2}
   character1_looser: {fileID: 0}
   character2_looser: {fileID: 0}
+  character1_song: character-1-song
+  character2_song: character-2-song
 --- !u!4 &1455668229
 Transform:
   m_ObjectHideFlags: 0

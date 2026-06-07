@@ -19,6 +19,10 @@ public class ScoresAnimations : MonoBehaviour
     private AnimationAsset character1_looser;
     [SerializeField]
     private AnimationAsset character2_looser;
+    [SerializeField]
+    private string character1_song;
+    [SerializeField]
+    private string character2_song;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
@@ -31,12 +35,14 @@ public class ScoresAnimations : MonoBehaviour
             // Character 1 a reçu le plus de réponses positives
             animationPlayer_winner.Play(character1_winner);
             // animationPlayer_looser.Play(character2_looser);
+            AudioSourcesManager.Instance.PlayCharacterVoice(character1_song);
         }
         else
         {
             // Character 2 a reçu le plus de réponses positives
             animationPlayer_winner.Play(character2_winner);
             // animationPlayer_looser.Play(character1_looser);
+            AudioSourcesManager.Instance.PlayCharacterVoice(character2_song);
         }
     }
 
