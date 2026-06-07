@@ -95,7 +95,11 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
         StopFeedbackPulse();
     }
 
-    public void OnSubmit(BaseEventData _) => Submitted?.Invoke(this);
+    public void OnSubmit(BaseEventData _)
+    {
+        AudioSourcesManager.Instance.StopPlayerVoice();
+        Submitted?.Invoke(this);
+    }
 
     private void SetFeedbackActive(bool active)
     {

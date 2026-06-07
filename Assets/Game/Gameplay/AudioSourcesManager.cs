@@ -57,6 +57,12 @@ public class AudioSourcesManager : MonoBehaviour
         StartCoroutine(PlayRepeated(playerVoiceAudioSource, sound.clip, times));
     }
 
+    public void StopPlayerVoice()
+    {
+        StopAllCoroutines();
+        playerVoiceAudioSource.Stop();
+    }
+
     private IEnumerator PlayRepeated(AudioSource source, AudioClip clip, int times)
     {
         source.Stop();

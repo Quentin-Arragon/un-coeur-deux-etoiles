@@ -85,7 +85,7 @@ public class Encounter : MonoBehaviour
         AudioSourcesManager.Instance.PlayEffect(isCorrect ? "yes" : "bof");
         characterImage.sprite = isCorrect ? characterSpriteHappy : characterSpriteSad;
 
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(1.5f);
 
         characterImage.sprite = characterSpriteIdle;
     }
