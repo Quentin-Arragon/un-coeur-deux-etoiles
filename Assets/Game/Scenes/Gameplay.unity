@@ -1069,6 +1069,42 @@ PrefabInstance:
       propertyPath: characterId
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[0].color.b
+      value: 0.20784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[0].color.g
+      value: 0.50980395
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[0].color.r
+      value: 0.9254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[1].color.b
+      value: 0.9098039
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[1].color.g
+      value: 0.69803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[1].color.r
+      value: 0.9529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[2].color.b
+      value: 0.4745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[2].color.g
+      value: 0.8784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[2].color.r
+      value: 0.44705883
+      objectReference: {fileID: 0}
     - target: {fileID: 2313782803380590280, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: m_Name
       value: Encounter 1
