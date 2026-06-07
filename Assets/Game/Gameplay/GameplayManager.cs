@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameplayManager : MonoBehaviour
 {
@@ -12,11 +13,7 @@ public class GameplayManager : MonoBehaviour
         yield return encounter[0].StartEncounter();
         yield return new WaitForSeconds(0.5f);
         yield return encounter[1].StartEncounter();
+        SceneManager.LoadScene("Scores");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }

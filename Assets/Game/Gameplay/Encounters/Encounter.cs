@@ -54,6 +54,8 @@ public class Encounter : MonoBehaviour
 
         Debug.Log($"Encounter ended");
 
+        _dialogChoiceView.gameObject.SetActive(false);
+
         // Sortie : recule + fade out en parallèle
         characterRect.DOAnchorPos(new Vector2(-70, 0f), introDuration).SetEase(Ease.OutCubic);
         characterGroup.DOFade(0f, introDuration);
