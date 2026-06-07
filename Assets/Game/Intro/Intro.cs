@@ -11,6 +11,9 @@ public class Intro : MonoBehaviour
     private VideoPlayer introVideo;
     [SerializeField]
     private GameObject anyKeyPrompt;
+    [SerializeField]
+    [Tooltip("Temps en secondes avant l'affichage du bouton \"any key\".")]
+    private float anyKeyPromptDelay = 18f;
 
     private bool animationFinished;
 
@@ -22,7 +25,8 @@ public class Intro : MonoBehaviour
         introVideo.loopPointReached += OnVideoFinished;
         introVideo.Play();
 
-        yield return null;
+        yield return new WaitForSeconds(anyKeyPromptDelay);
+        anyKeyPrompt.SetActive(true);
     }
 
     void OnVideoFinished(VideoPlayer source)
