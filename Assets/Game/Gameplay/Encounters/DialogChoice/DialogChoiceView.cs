@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System;
 using System.Collections;
+using DG.Tweening;
 
 public class DialogChoiceView : MonoBehaviour
 {
@@ -11,6 +12,10 @@ public class DialogChoiceView : MonoBehaviour
     private Transform choicesContainer = null;
     [SerializeField]
     private GameObject characterDialogContainer = null;
+    [SerializeField]
+    private float scalePulseAmplitude = 0.05f;
+    [SerializeField]
+    private float scalePulseFrequency = 2f;
 
     private Action<DialogChoiceEntry> _onChoiceSubmitted;
 
@@ -29,7 +34,26 @@ public class DialogChoiceView : MonoBehaviour
 
 
         characterDialogContainer.SetActive(true);
+
+        // Faire fluctuer le scale du premier enfant du container pendant l'attente.
+        Transform dialogTransform = characterDialogContainer.transform.childCount > 0
+            ? characterDialogContainer.transform.GetChild(0)
+            : null;
+        Vector3 baseScale = dialogTransform != null ? dialogTransform.localScale : Vector3.one;
+        Tween pulseTween = dialogTransform != null
+            ? dialogTransform
+                .DOScale(baseScale * (1f + scalePulseAmplitude), 1f / (scalePulseFrequency * 2f))
+                .SetLoops(-1, LoopType.Yoyo)
+                .SetEase(Ease.InOutSine)
+            : null;
+
         yield return new WaitForSeconds(dialogChoice.characterDialogDuration); // Attendre un peu pour que les objets soient détruits avant d'en créer de nouveaux
+
+        if (pulseTween != null)
+        {
+            pulseTween.Kill();
+            dialogTransform.localScale = baseScale;
+        }
 
         DialogChoiceEntryView first = null;
         foreach (var choice in dialogChoice.playerEntries)

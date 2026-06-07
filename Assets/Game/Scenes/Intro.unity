@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 643162c17a24647488e5dade0f289f49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Intro
-  introDuration: 18
+  introDuration: 16
   anyKeyPrompt: {fileID: 2082057787}
 --- !u!1 &1178580325
 GameObject:

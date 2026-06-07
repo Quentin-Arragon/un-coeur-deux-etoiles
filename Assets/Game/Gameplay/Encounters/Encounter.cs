@@ -28,7 +28,7 @@ public class Encounter : MonoBehaviour
     public IEnumerator StartEncounter()
     {
         GoFullscreen();
-        _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(200f, 0f), introDuration).SetEase(Ease.OutCubic);
+        _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(124f, 0f), introDuration).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(introDuration);
         // AudioSourcesManager.Instance.PlayDialog(dialog_1);
 
