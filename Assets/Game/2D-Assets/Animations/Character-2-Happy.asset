@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac5314e03dc5f43298f12c767e3468fd, type: 3}
+  m_Name: Character-2-Happy
+  m_EditorClassIdentifier: Assembly-CSharp::AnimationAsset
+  frames:
+  - {fileID: -8617469464706671967, guid: 54cb5ee5024f04048809f566695f47b7, type: 3}
+  - {fileID: -6149168873678829242, guid: 56c616308e21046409c9d49538868cc3, type: 3}
+  - {fileID: -2929599636892027067, guid: 1c006623954464e209b142a1f72006af, type: 3}
+  - {fileID: -1338913920711813013, guid: ceefff713889a471bb13971a54de41e9, type: 3}
+  framesPerSecond: 12
+  loop: 0
