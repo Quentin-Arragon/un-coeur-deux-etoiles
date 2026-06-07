@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using DG.Tweening;
 
 public class DialogChoiceView : MonoBehaviour
@@ -62,12 +64,31 @@ public class DialogChoiceView : MonoBehaviour
         }
 
         DialogChoiceEntryView first = null;
+        var selectables = new List<Selectable>();
         foreach (var choice in dialogChoice.playerEntries)
         {
             var choiceEntryView = Instantiate(choiceEntryViewPrefab, choicesContainer);
             choiceEntryView.Display(choice);
             choiceEntryView.Submitted += OnEntrySubmitted;
+            selectables.Add(choiceEntryView.GetComponent<Selectable>());
             if (first == null) first = choiceEntryView;
+        }
+
+        // Navigation explicite et bouclée : depuis le dernier choix on revient
+        // au premier (et inversement), dans les deux axes.
+        for (int i = 0; i < selectables.Count; i++)
+        {
+            Selectable previous = selectables[(i - 1 + selectables.Count) % selectables.Count];
+            Selectable next = selectables[(i + 1) % selectables.Count];
+            var nav = new Navigation
+            {
+                mode = Navigation.Mode.Explicit,
+                selectOnUp = previous,
+                selectOnLeft = previous,
+                selectOnDown = next,
+                selectOnRight = next,
+            };
+            selectables[i].navigation = nav;
         }
 
         // Attendre une frame pour que la destruction des anciens enfants
