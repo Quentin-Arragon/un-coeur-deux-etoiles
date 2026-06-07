@@ -36,7 +36,7 @@ public class Encounter : MonoBehaviour
 
         // Intro : entre + fade in en parallèle
         characterGroup.alpha = 0f;
-        characterRect.DOAnchorPos(new Vector2(124f, 0f), introDuration).SetEase(Ease.OutCubic);
+        characterRect.DOAnchorPos(new Vector2(42, 0f), introDuration).SetEase(Ease.OutCubic);
         characterGroup.DOFade(1f, introDuration);
         yield return new WaitForSeconds(introDuration);
 
@@ -57,7 +57,7 @@ public class Encounter : MonoBehaviour
         _dialogChoiceView.gameObject.SetActive(false);
 
         // Sortie : recule + fade out en parallèle
-        characterRect.DOAnchorPos(new Vector2(-70, 0f), introDuration).SetEase(Ease.OutCubic);
+        characterRect.DOAnchorPos(new Vector2(-170, 0f), introDuration).SetEase(Ease.OutCubic);
         characterGroup.DOFade(0f, introDuration);
         yield return new WaitForSeconds(introDuration);
     }
