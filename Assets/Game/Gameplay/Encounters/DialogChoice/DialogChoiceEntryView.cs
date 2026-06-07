@@ -10,6 +10,9 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     [SerializeField]
     private Image background = null;
 
+    [SerializeField, Range(0f, 1f)]
+    private float unfocusedAlpha = 0.5f;
+
     private DialogChoiceEntry _entry;
 
     public DialogChoiceEntry Entry => _entry;
@@ -18,11 +21,28 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     public void Display(DialogChoiceEntry entry)
     {
         _entry = entry;
-        background.color = entry.color;
+        SetAlpha(unfocusedAlpha);
         transform.localScale = Vector3.one;
     }
 
-    public void OnSelect(BaseEventData _) => transform.localScale = Vector3.one * 1.1f;
-    public void OnDeselect(BaseEventData _) => transform.localScale = Vector3.one;
+    public void OnSelect(BaseEventData _)
+    {
+        SetAlpha(1f);
+        transform.localScale = Vector3.one * 1.1f;
+    }
+
+    public void OnDeselect(BaseEventData _)
+    {
+        SetAlpha(unfocusedAlpha);
+        transform.localScale = Vector3.one;
+    }
+
     public void OnSubmit(BaseEventData _) => Submitted?.Invoke(this);
+
+    private void SetAlpha(float alpha)
+    {
+        Color color = _entry.color;
+        color.a = alpha;
+        background.color = color;
+    }
 }

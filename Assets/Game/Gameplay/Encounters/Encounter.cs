@@ -15,7 +15,7 @@ public class Encounter : MonoBehaviour
     private float dialog_1_duration = 3f;
     [SerializeField]
     private DialogChoice[] _choices = null;
-    
+
     [Title("References")]
     [SerializeField]
     private DialogChoiceView _dialogChoiceView = null;
@@ -28,14 +28,14 @@ public class Encounter : MonoBehaviour
     public IEnumerator StartEncounter()
     {
         GoFullscreen();
-        _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(290f, 0f), introDuration).SetEase(Ease.OutCubic);
+        _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(200f, 0f), introDuration).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(introDuration);
         // AudioSourcesManager.Instance.PlayDialog(dialog_1);
 
         foreach (var choice in _choices)
         {
             DialogChoiceEntry chosen = null;
-            _dialogChoiceView.DisplayChoices(choice, entry => chosen = entry);
+            yield return _dialogChoiceView.DisplayChoices(choice, entry => chosen = entry);
 
             yield return new WaitUntil(() => chosen != null);
 
