@@ -110,6 +110,9 @@ MonoBehaviour:
   background: {fileID: 4299347087268831833}
   unfocusedAlpha: 0.5
   selectedFeedback: {fileID: 6753102948750280253}
+  _sounfIcon: {fileID: 8047483725537968528}
+  soundIconPulseScale: 1.2
+  soundIconPulseDuration: 0.5
 --- !u!114 &3936027040618002863
 MonoBehaviour:
   m_ObjectHideFlags: 0
