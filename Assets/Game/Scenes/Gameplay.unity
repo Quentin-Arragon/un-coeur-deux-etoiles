@@ -858,6 +858,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -766102751474889009, guid: 2ff4d25e16e2c4aeea0c19f4652c4c6e, type: 3}
     - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: characterSpriteIdle
       value: 
       objectReference: {fileID: -6950486346419376927, guid: ff7894142c545456b86373b6cb93d322, type: 3}
@@ -865,6 +869,22 @@ PrefabInstance:
       propertyPath: characterSpriteHappy
       value: 
       objectReference: {fileID: -2211444460157222941, guid: 917de3e74fe5d4ab5be6fc9d9346bf5f, type: 3}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].character.soundId
+      value: encounter-2-question
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[0].soundId
+      value: encounter-2-answer-1
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[1].soundId
+      value: encounter-2-answer-2
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].playerEntries.Array.data[2].soundId
+      value: encounter-2-answer-3
+      objectReference: {fileID: 0}
     - target: {fileID: 2313782803380590280, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: m_Name
       value: Encounter 2
@@ -1378,11 +1398,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: _choices.Array.data[0].validPlayerEntryIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: _choices.Array.data[1].validPlayerEntryIndex
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: _choices.Array.data[2].validPlayerEntryIndex

@@ -64,3 +64,15 @@ MonoBehaviour:
   - id: answer-3-3
     category: 
     clip: {fileID: 8300000, guid: 9e89f3633aef74184836b944a13d7de0, type: 3}
+  - id: encounter-2-question
+    category: 
+    clip: {fileID: 8300000, guid: 517bca3daa27643d8b731c9a337ee11d, type: 3}
+  - id: encounter-2-answer-1
+    category: 
+    clip: {fileID: 8300000, guid: 1216a82568a3246deb07b43e4f87b620, type: 3}
+  - id: encounter-2-answer-2
+    category: 
+    clip: {fileID: 8300000, guid: fd4e4d98da4e543e98eea4bacf975e95, type: 3}
+  - id: encounter-2-answer-3
+    category: 
+    clip: {fileID: 8300000, guid: a5f9f940577004029967a8c1e18103fb, type: 3}
