@@ -1,0 +1,1313 @@
+fileFormatVersion: 2
+guid: 49103df27c7a0455891cf1c22ebbcec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4569479872396603485
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_0
+  - first:
+      213: 515653191218391007
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_1
+  - first:
+      213: -4079426058744353884
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_2
+  - first:
+      213: 7942480245708471269
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_3
+  - first:
+      213: 6378338408375200952
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_4
+  - first:
+      213: 2455065172370739947
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_5
+  - first:
+      213: -3657538010468161460
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_6
+  - first:
+      213: 7133477856598153504
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_7
+  - first:
+      213: -2621586816701284806
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_8
+  - first:
+      213: -1753620735075800928
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_9
+  - first:
+      213: -3373952460788852746
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_10
+  - first:
+      213: 2078467026500151051
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_11
+  - first:
+      213: -2711857554395385863
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_12
+  - first:
+      213: 8435898328920302131
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_13
+  - first:
+      213: -6653949826820140015
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_14
+  - first:
+      213: 7767808741082085098
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_15
+  - first:
+      213: -5558492864204992544
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_16
+  - first:
+      213: 6282711201576911976
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_17
+  - first:
+      213: 4594722432178322587
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_18
+  - first:
+      213: -2246727016649480341
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_19
+  - first:
+      213: -4631230296117337212
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_20
+  - first:
+      213: -5525632327831476533
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_21
+  - first:
+      213: 1102498474135682170
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_22
+  - first:
+      213: -3015908548903381872
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_23
+  - first:
+      213: -4299174022389783485
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_24
+  - first:
+      213: 2940350316790378238
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_25
+  - first:
+      213: -8601932243083265820
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_26
+  - first:
+      213: 7131441749584810957
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_27
+  - first:
+      213: -1069356316230611655
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_28
+  - first:
+      213: 6671697717651887486
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_29
+  - first:
+      213: 4462607659999991050
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_30
+  - first:
+      213: 7134273227812093077
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_31
+  - first:
+      213: -8296624152549451416
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_32
+  - first:
+      213: -5847409972513117755
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_33
+  - first:
+      213: 1754372848440333357
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_34
+  - first:
+      213: 7815579167731963346
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_35
+  - first:
+      213: 149481316383247589
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_36
+  - first:
+      213: 4202446021585268816
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_37
+  - first:
+      213: -37654139734679952
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_38
+  - first:
+      213: -6609142999199265980
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_39
+  - first:
+      213: 5772861479726045615
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_40
+  - first:
+      213: 1919265674138131390
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_41
+  - first:
+      213: 3408863375252398262
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_42
+  - first:
+      213: 4373301157183781757
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_43
+  - first:
+      213: -413645408871234920
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_44
+  - first:
+      213: 6332712299169736744
+    second: GAMEJAM_NONETOILE_ANIMATIC_V04_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1156
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afc0852442f590c0800000000000000
+      internalID: -4569479872396603485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_1
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1158
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd76ed968d7f72700800000000000000
+      internalID: 515653191218391007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_2
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 1133
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab22110d97f267c0800000000000000
+      internalID: -4079426058744353884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_3
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 1150
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebb201d3bb593e60800000000000000
+      internalID: 7942480245708471269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_4
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1024
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc2f601df8648850800000000000000
+      internalID: 6378338408375200952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_5
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1014
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2579b44c4221220800000000000000
+      internalID: 2455065172370739947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_6
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 1000
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c486e85de80dd3dc0800000000000000
+      internalID: -3657538010468161460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_7
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1054
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029d5a7d0543ff260800000000000000
+      internalID: 7133477856598153504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_8
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 956
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e3ca21ea04e9bd0800000000000000
+      internalID: -2621586816701284806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 838
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a82c078b33e9a7e0800000000000000
+      internalID: -1753620735075800928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_10
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 888
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f710a5ec105d21d0800000000000000
+      internalID: -3373952460788852746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_11
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 645
+        width: 234
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0767e79fb238dc10800000000000000
+      internalID: 2078467026500151051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 794
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffadcc1ceb8d5ad0800000000000000
+      internalID: -2711857554395385863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 711
+        width: 101
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3322b98b5d4521570800000000000000
+      internalID: 8435898328920302131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_14
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 739
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1141d1bf2eb68a3a0800000000000000
+      internalID: -6653949826820140015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_15
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 794
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae63f57f4eccccb60800000000000000
+      internalID: 7767808741082085098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_16
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 739
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef848ea0344cd2b0800000000000000
+      internalID: -5558492864204992544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 642
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8640c54fc8ca03750800000000000000
+      internalID: 6282711201576911976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_18
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 649
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cf18b45bbb3cf30800000000000000
+      internalID: 4594722432178322587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67a5599ea502d0e0800000000000000
+      internalID: -2246727016649480341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_20
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 557
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48326ee35909abfb0800000000000000
+      internalID: -4631230296117337212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_21
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 521
+        width: 92
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6a0348ca20153b0800000000000000
+      internalID: -5525632327831476533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_22
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 558
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c744c558cdc4f00800000000000000
+      internalID: 1102498474135682170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_23
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 529
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094dc8b57275526d0800000000000000
+      internalID: -3015908548903381872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_24
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 494
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344aedf21044654c0800000000000000
+      internalID: -4299174022389783485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_25
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 256
+        width: 275
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe6f73d8093ec820800000000000000
+      internalID: 2940350316790378238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_26
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 496
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8fa0d233ccf9880800000000000000
+      internalID: -8601932243083265820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_27
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 462
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3946cbc78f7f260800000000000000
+      internalID: 7131441749584810957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 407
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d01c89812e821f0800000000000000
+      internalID: -1069356316230611655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_29
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 408
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75dc6dd9b1a69c50800000000000000
+      internalID: 6671697717651887486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_30
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 408
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a059c3ad50e5eed30800000000000000
+      internalID: 4462607659999991050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_31
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 238
+        width: 139
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cb152a3b7020360800000000000000
+      internalID: 7134273227812093077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_32
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 250
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8691d586a487cdc80800000000000000
+      internalID: -8296624152549451416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_33
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 170
+        width: 93
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c967446c93d9dea0800000000000000
+      internalID: -5847409972513117755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_34
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 206
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2450e28fc8c85810800000000000000
+      internalID: 1754372848440333357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d55b9628d3867c60800000000000000
+      internalID: 7815579167731963346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_36
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 181
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecc49b1770131200800000000000000
+      internalID: 149481316383247589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_37
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 84
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050f7502466125a30800000000000000
+      internalID: 4202446021585268816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_38
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 106
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e9ac862c93a7ff0800000000000000
+      internalID: -37654139734679952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_39
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 83
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bc7fe757b9744a0800000000000000
+      internalID: -6609142999199265980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_40
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 45
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa95b9c0ee25d1050800000000000000
+      internalID: 5772861479726045615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_41
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 47
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb9a9046f992aa10800000000000000
+      internalID: 1919265674138131390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_42
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 0
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b022c9cd27be4f20800000000000000
+      internalID: 3408863375252398262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_43
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 0
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b7eb15b3611bc30800000000000000
+      internalID: 4373301157183781757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_44
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892424531bf624af0800000000000000
+      internalID: -413645408871234920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GAMEJAM_NONETOILE_ANIMATIC_V04_45
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82862c0b84052e750800000000000000
+      internalID: 6332712299169736744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GAMEJAM_NONETOILE_ANIMATIC_V04_0: -4569479872396603485
+      GAMEJAM_NONETOILE_ANIMATIC_V04_1: 515653191218391007
+      GAMEJAM_NONETOILE_ANIMATIC_V04_10: -3373952460788852746
+      GAMEJAM_NONETOILE_ANIMATIC_V04_11: 2078467026500151051
+      GAMEJAM_NONETOILE_ANIMATIC_V04_12: -2711857554395385863
+      GAMEJAM_NONETOILE_ANIMATIC_V04_13: 8435898328920302131
+      GAMEJAM_NONETOILE_ANIMATIC_V04_14: -6653949826820140015
+      GAMEJAM_NONETOILE_ANIMATIC_V04_15: 7767808741082085098
+      GAMEJAM_NONETOILE_ANIMATIC_V04_16: -5558492864204992544
+      GAMEJAM_NONETOILE_ANIMATIC_V04_17: 6282711201576911976
+      GAMEJAM_NONETOILE_ANIMATIC_V04_18: 4594722432178322587
+      GAMEJAM_NONETOILE_ANIMATIC_V04_19: -2246727016649480341
+      GAMEJAM_NONETOILE_ANIMATIC_V04_2: -4079426058744353884
+      GAMEJAM_NONETOILE_ANIMATIC_V04_20: -4631230296117337212
+      GAMEJAM_NONETOILE_ANIMATIC_V04_21: -5525632327831476533
+      GAMEJAM_NONETOILE_ANIMATIC_V04_22: 1102498474135682170
+      GAMEJAM_NONETOILE_ANIMATIC_V04_23: -3015908548903381872
+      GAMEJAM_NONETOILE_ANIMATIC_V04_24: -4299174022389783485
+      GAMEJAM_NONETOILE_ANIMATIC_V04_25: 2940350316790378238
+      GAMEJAM_NONETOILE_ANIMATIC_V04_26: -8601932243083265820
+      GAMEJAM_NONETOILE_ANIMATIC_V04_27: 7131441749584810957
+      GAMEJAM_NONETOILE_ANIMATIC_V04_28: -1069356316230611655
+      GAMEJAM_NONETOILE_ANIMATIC_V04_29: 6671697717651887486
+      GAMEJAM_NONETOILE_ANIMATIC_V04_3: 7942480245708471269
+      GAMEJAM_NONETOILE_ANIMATIC_V04_30: 4462607659999991050
+      GAMEJAM_NONETOILE_ANIMATIC_V04_31: 7134273227812093077
+      GAMEJAM_NONETOILE_ANIMATIC_V04_32: -8296624152549451416
+      GAMEJAM_NONETOILE_ANIMATIC_V04_33: -5847409972513117755
+      GAMEJAM_NONETOILE_ANIMATIC_V04_34: 1754372848440333357
+      GAMEJAM_NONETOILE_ANIMATIC_V04_35: 7815579167731963346
+      GAMEJAM_NONETOILE_ANIMATIC_V04_36: 149481316383247589
+      GAMEJAM_NONETOILE_ANIMATIC_V04_37: 4202446021585268816
+      GAMEJAM_NONETOILE_ANIMATIC_V04_38: -37654139734679952
+      GAMEJAM_NONETOILE_ANIMATIC_V04_39: -6609142999199265980
+      GAMEJAM_NONETOILE_ANIMATIC_V04_4: 6378338408375200952
+      GAMEJAM_NONETOILE_ANIMATIC_V04_40: 5772861479726045615
+      GAMEJAM_NONETOILE_ANIMATIC_V04_41: 1919265674138131390
+      GAMEJAM_NONETOILE_ANIMATIC_V04_42: 3408863375252398262
+      GAMEJAM_NONETOILE_ANIMATIC_V04_43: 4373301157183781757
+      GAMEJAM_NONETOILE_ANIMATIC_V04_44: -413645408871234920
+      GAMEJAM_NONETOILE_ANIMATIC_V04_45: 6332712299169736744
+      GAMEJAM_NONETOILE_ANIMATIC_V04_5: 2455065172370739947
+      GAMEJAM_NONETOILE_ANIMATIC_V04_6: -3657538010468161460
+      GAMEJAM_NONETOILE_ANIMATIC_V04_7: 7133477856598153504
+      GAMEJAM_NONETOILE_ANIMATIC_V04_8: -2621586816701284806
+      GAMEJAM_NONETOILE_ANIMATIC_V04_9: -1753620735075800928
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
