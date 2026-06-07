@@ -31,11 +31,15 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     [SerializeField]
     private float feedbackPulseDuration = 0.8f;
 
+    [SerializeField]
+    private float submitFlickerDuration = 0.15f;
+
     private DialogChoiceEntry _entry;
     private Vector3 _soundIconBaseScale = Vector3.one;
     private Tween _soundIconPulse;
     private CanvasGroup _feedbackCanvasGroup;
     private Tween _feedbackPulse;
+    private Tween _submitFlicker;
 
     public DialogChoiceEntry Entry => _entry;
     public event Action<DialogChoiceEntryView> Submitted;
@@ -93,12 +97,31 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     {
         StopSoundIconPulse();
         StopFeedbackPulse();
+        _submitFlicker?.Kill();
+        _submitFlicker = null;
     }
 
     public void OnSubmit(BaseEventData _)
     {
         AudioSourcesManager.Instance.StopPlayerVoice();
+        FlickerOnSubmit();
         Submitted?.Invoke(this);
+    }
+
+    private void FlickerOnSubmit()
+    {
+        if (background == null)
+            return;
+
+        StopFeedbackPulse();
+
+        _submitFlicker?.Kill();
+        SetAlpha(1f);
+        _submitFlicker = background
+            .DOFade(unfocusedAlpha, submitFlickerDuration * 0.5f)
+            .SetLoops(2, LoopType.Yoyo)
+            .SetEase(Ease.Linear)
+            .OnComplete(() => SetAlpha(1f));
     }
 
     private void SetFeedbackActive(bool active)
