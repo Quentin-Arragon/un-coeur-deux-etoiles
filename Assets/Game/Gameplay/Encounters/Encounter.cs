@@ -29,6 +29,7 @@ public class Encounter : MonoBehaviour
 
 
 
+
     public IEnumerator StartEncounter()
     {
         Debug.Log($"Encounter started");
@@ -38,6 +39,7 @@ public class Encounter : MonoBehaviour
         RectTransform characterRect = _character.GetComponent<RectTransform>();
         CanvasGroup characterGroup = _character.GetComponent<CanvasGroup>();
 
+        AudioSourcesManager.Instance.PlayEffect("hello");
         // Intro : entre + fade in en parallèle
         characterGroup.alpha = 0f;
         characterRect.DOAnchorPos(new Vector2(42, 0f), introDuration).SetEase(Ease.OutCubic);

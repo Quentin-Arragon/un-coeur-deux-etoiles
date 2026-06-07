@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c81a4759f0d842fea6169b715575b69, type: 3}
+  m_Name: Sounds Bank
+  m_EditorClassIdentifier: Assembly-CSharp::SoundsBank
+  sounds:
+  - id: placeholder
+    category: 
+    clip: {fileID: 8300000, guid: e507c0cdc51db440aaec97eac0d77295, type: 3}
+  - id: bof
+    category: 
+    clip: {fileID: 8300000, guid: a34d7de6f08124cbf9093ee66012aeb4, type: 3}
+  - id: non-hanhan
+    category: 
+    clip: {fileID: 8300000, guid: 3749735861829414d834e6e1de0f6315, type: 3}
+  - id: pas-content
+    category: 
+    clip: {fileID: 8300000, guid: 6d23adfc66be54ec2ad2e98b3aca4b6e, type: 3}
+  - id: yes
+    category: 
+    clip: {fileID: 8300000, guid: df4035588696346b4838e9c8c3e0e1b4, type: 3}
+  - id: bopopopop
+    category: 
+    clip: {fileID: 8300000, guid: 5b525ad88f2de4483b770895c91c663c, type: 3}
+  - id: hello
+    category: 
+    clip: {fileID: 8300000, guid: 91bb21ff91de348be8ea75d7d9532fb1, type: 3}

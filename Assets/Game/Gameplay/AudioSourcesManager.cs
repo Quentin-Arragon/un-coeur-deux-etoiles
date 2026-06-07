@@ -17,10 +17,40 @@ public class AudioSourcesManager : MonoBehaviour
     }
 
     [SerializeField]
+    private SoundsBank soundsBank = null;
+
+    [SerializeField]
     private AudioSource dialogAudioSource = null;
 
-    public void PlayDialog(AudioClip clip)
+    [SerializeField]
+    private AudioSource playerVoiceAudioSource = null;
+
+    [SerializeField]
+    private AudioSource effectAudioSource = null;
+
+    public void PlayDialog(string id)
     {
-        dialogAudioSource.PlayOneShot(clip);
+        PlayOn(dialogAudioSource, id);
+    }
+
+    public void PlayCharacterVoice(string id)
+    {
+        PlayOn(playerVoiceAudioSource, id);
+    }
+
+    public void PlayEffect(string id)
+    {
+        PlayOn(effectAudioSource, id);
+    }
+
+    private void PlayOn(AudioSource source, string id)
+    {
+        GameSound sound = soundsBank.GetSound(id);
+        if (sound == null || sound.clip == null)
+        {
+            Debug.LogWarning($"Sound with id '{id}' not found in the sounds bank.");
+            return;
+        }
+        source.PlayOneShot(sound.clip);
     }
 }
