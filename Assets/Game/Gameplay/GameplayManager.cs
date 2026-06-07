@@ -10,6 +10,8 @@ public class GameplayManager : MonoBehaviour
     IEnumerator Start()
     {
         yield return encounter[0].StartEncounter();
+        yield return new WaitForSeconds(0.5f);
+        yield return encounter[1].StartEncounter();
     }
 
     // Update is called once per frame

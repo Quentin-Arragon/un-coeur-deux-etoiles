@@ -30,7 +30,14 @@ public class Encounter : MonoBehaviour
         Debug.Log($"Encounter started");
 
         GoFullscreen();
-        _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(124f, 0f), introDuration).SetEase(Ease.OutCubic);
+
+        RectTransform characterRect = _character.GetComponent<RectTransform>();
+        CanvasGroup characterGroup = _character.GetComponent<CanvasGroup>();
+
+        // Intro : entre + fade in en parallèle
+        characterGroup.alpha = 0f;
+        characterRect.DOAnchorPos(new Vector2(124f, 0f), introDuration).SetEase(Ease.OutCubic);
+        characterGroup.DOFade(1f, introDuration);
         yield return new WaitForSeconds(introDuration);
 
 
@@ -46,6 +53,11 @@ public class Encounter : MonoBehaviour
         }
 
         Debug.Log($"Encounter ended");
+
+        // Sortie : recule + fade out en parallèle
+        characterRect.DOAnchorPos(new Vector2(-70, 0f), introDuration).SetEase(Ease.OutCubic);
+        characterGroup.DOFade(0f, introDuration);
+        yield return new WaitForSeconds(introDuration);
     }
 
 
