@@ -34,3 +34,33 @@ MonoBehaviour:
   - id: hello
     category: 
     clip: {fileID: 8300000, guid: 91bb21ff91de348be8ea75d7d9532fb1, type: 3}
+  - id: encounter-1-question
+    category: 
+    clip: {fileID: 8300000, guid: 75f472ecf90624b029f4332c8147fdb2, type: 3}
+  - id: answer-1-1
+    category: 
+    clip: {fileID: 8300000, guid: ecb3a8dfc34ff458796f63b75bf85577, type: 3}
+  - id: answer-1-2
+    category: 
+    clip: {fileID: 8300000, guid: a60f07845e5cc4e8c95535c9192df6ee, type: 3}
+  - id: answer-1-3
+    category: 
+    clip: {fileID: 8300000, guid: 8bd567ff659d54104922f07d41f719e4, type: 3}
+  - id: answer-2-1
+    category: 
+    clip: {fileID: 8300000, guid: 8abeab0a611b44bd59dfb9160ff97ec5, type: 3}
+  - id: answer-2-2
+    category: 
+    clip: {fileID: 8300000, guid: 324669a7f532d4db1866d85cb208ada7, type: 3}
+  - id: answer-2-3
+    category: 
+    clip: {fileID: 8300000, guid: a374bf2b12b5941a68ec5745b5ce156a, type: 3}
+  - id: answer-3-1
+    category: 
+    clip: {fileID: 8300000, guid: 735ef33b5f1ae46c7bb6a35de18b3416, type: 3}
+  - id: answer-3-2
+    category: 
+    clip: {fileID: 8300000, guid: ceac32690b00c490c8372525459ed4cb, type: 3}
+  - id: answer-3-3
+    category: 
+    clip: {fileID: 8300000, guid: 9e89f3633aef74184836b944a13d7de0, type: 3}
