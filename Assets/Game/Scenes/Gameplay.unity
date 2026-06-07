@@ -462,6 +462,7 @@ MonoBehaviour:
   encounter:
   - {fileID: 1405110001}
   - {fileID: 1323656669}
+  _encountersOutput: {fileID: 11400000, guid: a0eab67a6e64540cc92b25e582196adf, type: 2}
 --- !u!4 &693422458
 Transform:
   m_ObjectHideFlags: 0
@@ -719,6 +720,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 23746750}
     m_Modifications:
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: characterId
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2313782803380590280, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: m_Name
       value: Encounter 2
@@ -1060,6 +1065,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 23746750}
     m_Modifications:
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: characterId
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2313782803380590280, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: m_Name
       value: Encounter 1

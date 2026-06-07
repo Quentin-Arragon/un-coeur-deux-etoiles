@@ -464,6 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab467fbe8fae643e385a79626e46e0bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Encounter
+  characterId: 
   introDuration: 0.2
   dialog_1: {fileID: 8300000, guid: e507c0cdc51db440aaec97eac0d77295, type: 3}
   dialog_1_duration: 3
@@ -502,6 +503,7 @@ MonoBehaviour:
     characterDialogDuration: 2
   _dialogChoiceView: {fileID: 4408315632301463555}
   _character: {fileID: 4988796634690671270}
+  _encountersOutput: {fileID: 11400000, guid: a0eab67a6e64540cc92b25e582196adf, type: 2}
 --- !u!1 &3816082580795628568
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class Encounter : MonoBehaviour
 {
     [Title("Configs")]
     [SerializeField]
+    private string characterId = null;
+    [SerializeField]
     private float introDuration = 2;
     [SerializeField]
     private AudioClip dialog_1 = null;
@@ -21,6 +23,8 @@ public class Encounter : MonoBehaviour
     private DialogChoiceView _dialogChoiceView = null;
     [SerializeField]
     private GameObject _character = null;
+    [SerializeField]
+    private EncountersOutput _encountersOutput = null;
 
 
 
@@ -49,7 +53,7 @@ public class Encounter : MonoBehaviour
             yield return new WaitUntil(() => isCorrect != null);
 
             Debug.Log($"Réponse {(isCorrect.Value ? "correcte" : "incorrecte")}");
-            // ... fais quelque chose avec isCorrect.Value ici
+            _encountersOutput.AddRecord(characterId, isCorrect.Value);
         }
 
         Debug.Log($"Encounter ended");
