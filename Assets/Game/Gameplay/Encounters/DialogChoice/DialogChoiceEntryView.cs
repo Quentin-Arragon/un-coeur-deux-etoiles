@@ -54,6 +54,9 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
         SetAlpha(1f);
         SetFeedbackActive(true);
         PulseSoundIcon();
+
+        if (_entry != null && !string.IsNullOrEmpty(_entry.soundId))
+            AudioSourcesManager.Instance.PlayPlayerVoice(_entry.soundId);
     }
 
     public void OnDeselect(BaseEventData _)

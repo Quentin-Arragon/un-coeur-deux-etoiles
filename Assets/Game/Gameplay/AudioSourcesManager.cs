@@ -35,6 +35,11 @@ public class AudioSourcesManager : MonoBehaviour
 
     public void PlayCharacterVoice(string id)
     {
+        PlayOn(dialogAudioSource, id);
+    }
+
+    public void PlayPlayerVoice(string id)
+    {
         PlayOn(playerVoiceAudioSource, id);
     }
 
