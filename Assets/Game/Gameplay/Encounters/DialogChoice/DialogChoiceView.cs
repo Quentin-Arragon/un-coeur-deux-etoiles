@@ -19,6 +19,7 @@ public class DialogChoiceView : MonoBehaviour
 
     private Action<bool> _onChoiceSubmitted;
     private DialogChoiceEntry _validEntry;
+    private GameObject _lockedSelection;
 
     private void Awake()
     {
@@ -74,7 +75,30 @@ public class DialogChoiceView : MonoBehaviour
         yield return null;
 
         if (first != null)
+        {
+            _lockedSelection = first.gameObject;
             EventSystem.current.SetSelectedGameObject(first.gameObject);
+        }
+    }
+
+    private void Update()
+    {
+        var eventSystem = EventSystem.current;
+        if (eventSystem == null || _lockedSelection == null)
+            return;
+
+        // Empêcher de sortir de la navigation : si la sélection courante est
+        // perdue (clic souris dans le vide) ou pointe ailleurs, on la restaure
+        // sur le dernier choix sélectionné.
+        GameObject current = eventSystem.currentSelectedGameObject;
+        if (current != null && current.transform.IsChildOf(choicesContainer))
+        {
+            _lockedSelection = current;
+        }
+        else
+        {
+            eventSystem.SetSelectedGameObject(_lockedSelection);
+        }
     }
 
     private void OnEntrySubmitted(DialogChoiceEntryView view)
