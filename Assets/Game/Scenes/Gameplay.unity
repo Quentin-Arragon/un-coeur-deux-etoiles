@@ -1389,8 +1389,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[0].characterDialogDuration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: _choices.Array.data[1].characterDialogDuration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: _choices.Array.data[2].characterDialogDuration
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: _choices.Array.data[2].playerEntries.Array.size

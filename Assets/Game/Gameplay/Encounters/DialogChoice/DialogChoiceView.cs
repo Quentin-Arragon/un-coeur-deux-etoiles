@@ -43,6 +43,9 @@ public class DialogChoiceView : MonoBehaviour
 
         characterDialogContainer.SetActive(true);
 
+        if (dialogChoice.character != null && !string.IsNullOrEmpty(dialogChoice.character.soundId))
+            AudioSourcesManager.Instance.PlayCharacterVoice(dialogChoice.character.soundId);
+
         // Faire fluctuer le scale du premier enfant du container pendant l'attente.
         Transform dialogTransform = characterDialogContainer.transform.childCount > 0
             ? characterDialogContainer.transform.GetChild(0)
@@ -54,6 +57,8 @@ public class DialogChoiceView : MonoBehaviour
                 .SetLoops(-1, LoopType.Yoyo)
                 .SetEase(Ease.InOutSine)
             : null;
+
+
 
         yield return new WaitForSeconds(dialogChoice.characterDialogDuration); // Attendre un peu pour que les objets soient détruits avant d'en créer de nouveaux
 
