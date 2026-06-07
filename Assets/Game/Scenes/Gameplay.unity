@@ -853,6 +853,18 @@ PrefabInstance:
       propertyPath: characterId
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: characterSpriteSad
+      value: 
+      objectReference: {fileID: -766102751474889009, guid: 2ff4d25e16e2c4aeea0c19f4652c4c6e, type: 3}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: characterSpriteIdle
+      value: 
+      objectReference: {fileID: -6950486346419376927, guid: ff7894142c545456b86373b6cb93d322, type: 3}
+    - target: {fileID: 974259084284598807, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
+      propertyPath: characterSpriteHappy
+      value: 
+      objectReference: {fileID: -2211444460157222941, guid: 917de3e74fe5d4ab5be6fc9d9346bf5f, type: 3}
     - target: {fileID: 2313782803380590280, guid: 777524b8f1dc04469b74eb07ddc4656f, type: 3}
       propertyPath: m_Name
       value: Encounter 2

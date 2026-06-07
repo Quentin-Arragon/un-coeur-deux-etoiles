@@ -504,6 +504,10 @@ MonoBehaviour:
   _dialogChoiceView: {fileID: 4408315632301463555}
   _character: {fileID: 4988796634690671270}
   _encountersOutput: {fileID: 11400000, guid: a0eab67a6e64540cc92b25e582196adf, type: 2}
+  characterImage: {fileID: 4440639705622968504}
+  characterSpriteIdle: {fileID: 7781202394294830402, guid: 100f32976c3c1402ba9597f7db0cc355, type: 3}
+  characterSpriteHappy: {fileID: -8117654880472917664, guid: c15eea4ef479749b3996d6be0d601ddd, type: 3}
+  characterSpriteSad: {fileID: 6705394355245921062, guid: 6131e9bcb69b1440abd020851f75c95e, type: 3}
 --- !u!1 &3816082580795628568
 GameObject:
   m_ObjectHideFlags: 0

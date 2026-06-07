@@ -26,7 +26,15 @@ public class Encounter : MonoBehaviour
     [SerializeField]
     private EncountersOutput _encountersOutput = null;
 
-
+    [Title("Character Image")]
+    [SerializeField]
+    Image characterImage = null;
+    [SerializeField]
+    Sprite characterSpriteIdle = null;
+    [SerializeField]
+    Sprite characterSpriteHappy = null;
+    [SerializeField]
+    Sprite characterSpriteSad = null;
 
 
 
@@ -55,6 +63,7 @@ public class Encounter : MonoBehaviour
             yield return new WaitUntil(() => isCorrect != null);
 
             Debug.Log($"Réponse {(isCorrect.Value ? "correcte" : "incorrecte")}");
+            yield return PlayFeedback(isCorrect.Value);
             _encountersOutput.AddRecord(characterId, isCorrect.Value);
         }
 
@@ -66,6 +75,16 @@ public class Encounter : MonoBehaviour
         characterRect.DOAnchorPos(new Vector2(-170, 0f), introDuration).SetEase(Ease.OutCubic);
         characterGroup.DOFade(0f, introDuration);
         yield return new WaitForSeconds(introDuration);
+    }
+
+
+    private IEnumerator PlayFeedback(bool isCorrect)
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        AudioSourcesManager.Instance.PlayEffect(isCorrect ? "yes" : "bof");
+
+        yield return new WaitForSeconds(0.5f);
     }
 
 
