@@ -27,21 +27,25 @@ public class Encounter : MonoBehaviour
 
     public IEnumerator StartEncounter()
     {
+        Debug.Log($"Encounter started");
+
         GoFullscreen();
         _character.GetComponent<RectTransform>().DOAnchorPos(new Vector2(124f, 0f), introDuration).SetEase(Ease.OutCubic);
         yield return new WaitForSeconds(introDuration);
-        // AudioSourcesManager.Instance.PlayDialog(dialog_1);
+
 
         foreach (var choice in _choices)
         {
-            DialogChoiceEntry chosen = null;
-            yield return _dialogChoiceView.DisplayChoices(choice, entry => chosen = entry);
+            bool? isCorrect = null;
+            yield return _dialogChoiceView.DisplayChoices(choice, correct => isCorrect = correct);
 
-            yield return new WaitUntil(() => chosen != null);
+            yield return new WaitUntil(() => isCorrect != null);
 
-            Debug.Log($"Choix sélectionné : {chosen.id}");
-            // ... fais quelque chose avec chosen.id ici
+            Debug.Log($"Réponse {(isCorrect.Value ? "correcte" : "incorrecte")}");
+            // ... fais quelque chose avec isCorrect.Value ici
         }
+
+        Debug.Log($"Encounter ended");
     }
 
 

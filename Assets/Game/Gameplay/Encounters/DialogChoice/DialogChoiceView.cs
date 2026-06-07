@@ -17,16 +17,21 @@ public class DialogChoiceView : MonoBehaviour
     [SerializeField]
     private float scalePulseFrequency = 2f;
 
-    private Action<DialogChoiceEntry> _onChoiceSubmitted;
+    private Action<bool> _onChoiceSubmitted;
+    private DialogChoiceEntry _validEntry;
 
     private void Awake()
     {
         characterDialogContainer.SetActive(false);
     }
 
-    public IEnumerator DisplayChoices(DialogChoice dialogChoice, Action<DialogChoiceEntry> onChoiceSubmitted)
+    public IEnumerator DisplayChoices(DialogChoice dialogChoice, Action<bool> onChoiceSubmitted)
     {
         _onChoiceSubmitted = onChoiceSubmitted;
+        _validEntry = dialogChoice.validPlayerEntryIndex >= 0
+            && dialogChoice.validPlayerEntryIndex < dialogChoice.playerEntries.Length
+            ? dialogChoice.playerEntries[dialogChoice.validPlayerEntryIndex]
+            : null;
 
         characterDialogContainer.SetActive(false);
         foreach (Transform child in choicesContainer)
@@ -74,6 +79,7 @@ public class DialogChoiceView : MonoBehaviour
 
     private void OnEntrySubmitted(DialogChoiceEntryView view)
     {
-        _onChoiceSubmitted?.Invoke(view.Entry);
+        bool isCorrect = view.Entry == _validEntry;
+        _onChoiceSubmitted?.Invoke(isCorrect);
     }
 }

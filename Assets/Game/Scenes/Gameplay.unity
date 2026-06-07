@@ -1261,7 +1261,7 @@ MonoBehaviour:
     - id: 
       soundId: placeholder
       color: {r: 0, g: 0, b: 0, a: 1}
-    validPlayerEntryIndex: 1
+    validPlayerEntryIndex: 2
     character:
       id: 
       soundId: 
