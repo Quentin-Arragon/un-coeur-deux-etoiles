@@ -13,6 +13,9 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     [SerializeField, Range(0f, 1f)]
     private float unfocusedAlpha = 0.5f;
 
+    [SerializeField]
+    private GameObject selectedFeedback = null;
+
     private DialogChoiceEntry _entry;
 
     public DialogChoiceEntry Entry => _entry;
@@ -22,22 +25,28 @@ public class DialogChoiceEntryView : MonoBehaviour, ISelectHandler, IDeselectHan
     {
         _entry = entry;
         SetAlpha(unfocusedAlpha);
-        transform.localScale = Vector3.one;
+        SetFeedbackActive(false);
     }
 
     public void OnSelect(BaseEventData _)
     {
         SetAlpha(1f);
-        transform.localScale = Vector3.one * 1.1f;
+        SetFeedbackActive(true);
     }
 
     public void OnDeselect(BaseEventData _)
     {
         SetAlpha(unfocusedAlpha);
-        transform.localScale = Vector3.one;
+        SetFeedbackActive(false);
     }
 
     public void OnSubmit(BaseEventData _) => Submitted?.Invoke(this);
+
+    private void SetFeedbackActive(bool active)
+    {
+        if (selectedFeedback != null)
+            selectedFeedback.SetActive(active);
+    }
 
     private void SetAlpha(float alpha)
     {
