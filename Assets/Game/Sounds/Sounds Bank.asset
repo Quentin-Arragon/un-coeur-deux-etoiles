@@ -82,3 +82,24 @@ MonoBehaviour:
   - id: character-2-song
     category: 
     clip: {fileID: 8300000, guid: aba8285ba0bb646d08a9f67c1470c1a6, type: 3}
+  - id: encounter-2-question-2
+    category: 
+    clip: {fileID: 8300000, guid: 7e403ebe2e339417787f595dc99d9aa4, type: 3}
+  - id: encounter-2-answer-2-1
+    category: 
+    clip: {fileID: 8300000, guid: 1d9b6ada301df470a881367aab5c1706, type: 3}
+  - id: encounter-2-answer-2-2
+    category: 
+    clip: {fileID: 8300000, guid: 66c7e0210d70f4f56a2b288f3e06fed8, type: 3}
+  - id: encounter-2-answer-2-3
+    category: 
+    clip: {fileID: 8300000, guid: 85048858ced984be28b1690704ac9e57, type: 3}
+  - id: encounter-2-answer-3-1
+    category: 
+    clip: {fileID: 8300000, guid: 319a3143911614705a38c70480845c52, type: 3}
+  - id: encounter-2-answer-3-2
+    category: 
+    clip: {fileID: 8300000, guid: c56777171ab7d49bd89aaecb18924261, type: 3}
+  - id: encounter-2-answer-3-3
+    category: 
+    clip: {fileID: 8300000, guid: f2c76368782df4974a78db4b298ca348, type: 3}
