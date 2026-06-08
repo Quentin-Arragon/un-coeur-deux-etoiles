@@ -21,6 +21,12 @@ public class Intro : MonoBehaviour
     {
         anyKeyPrompt.SetActive(false);
 
+        // En WebGL, la vidéo est livrée comme fichier autonome dans StreamingAssets.
+        // streamingAssetsPath renvoie l'URL correcte (http/https) selon l'hébergement
+        // (localhost en local, html-classic.itch.zone sur itch). Jamais de chemin disque absolu.
+        introVideo.source = VideoSource.Url;
+        introVideo.url = Application.streamingAssetsPath + "/intro.mp4";
+
         introVideo.isLooping = false;
         introVideo.loopPointReached += OnVideoFinished;
         introVideo.Play();
